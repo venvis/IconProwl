@@ -11,8 +11,8 @@
 
 ```python
 
-#To scrape for normal icons , create an instance of the class IconFinder with the name of the image to search  , for example : 
-
+#To scrape for normal icons , create an instance of the class IconFinder with the name of the image to search  , for example :
+from WebIconFiner import IconFinder
 find_icon=IconFinder("mail")
 ```
 
