@@ -37,5 +37,5 @@ find_icon.get_links()
 ```
 
 <div align="center">
-<img src="bs4.png" style="border:1px solid white;" height="190" width="300">
+<img src="bs4.png" style="border:1px solid white;" height="160" width="300">
 </div>
