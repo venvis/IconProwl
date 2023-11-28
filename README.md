@@ -13,7 +13,7 @@
 
 #To scrape for normal icons , create an instance of the class IconFinder with the name of the image to search  , for example :
 
-from WebIconFiner import IconFinder # Import the class from the package
+from WebIconFinder import IconFinder # Import the class from the package
 find_icon=IconFinder("mail")
 ```
 
