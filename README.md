@@ -13,7 +13,7 @@
 find_icon=IconFinder("mail")
 ```
 
-### Function 1 : Scrape web links of images
+###  1 : Scrape web links of images
 
 ```python
 
@@ -21,4 +21,14 @@ find_icon=IconFinder("mail")
 
 find_icon=IconFinder("mail")
 find_icon.images()
+```
+
+###  2 : Get Links to download and edit images
+
+```python
+
+#To scrape for links of images to download locally  , call the get_links() function from the initialized class , for example : 
+
+find_icon=IconFinder("mail")
+find_icon.get_links()
 ```
