@@ -13,7 +13,7 @@
 find_icon=IconFinder("mail")
 ```
 
-###Function 1 : Scrape web links of images
+### Function 1 : Scrape web links of images
 
 ```python
 
