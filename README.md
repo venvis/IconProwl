@@ -57,6 +57,17 @@ find_icon=IconFinder("mail")
 find_icon.save_image("/Users/myname/Desktop/x.jpeg",6) # Saves the 6th image in the Desktop as x.jpeg
 ```
 
+<p align="center">There is also a class for 3D images. Initiate the Class as follows and the functions are the same as the previous.</p>
+
+```python
+
+#To scrape for links of images , call the images() function from the initialized class , for example : 
+
+from WebIconFinder import IconFinder3D # Import the 3D class
+find_icon=IconFinder3D("mail")
+find_icon.images()
+```
+
 <div align="center">
 <img src="bs4.png" style="border:1px solid white;" height="130" width="300">
   <p align="center">Made with Python and BeautifulSoup</p>
