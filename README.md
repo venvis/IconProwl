@@ -76,6 +76,6 @@ find_icon.images()
 </div>
 
 <div align="center">
-<img src="bs4.png" style="border:1px solid white;" height="130" width="300">
+<img src="bs4.png" height="300" width="300">
   <p align="center">Made with Python and BeautifulSoup</p>
 </div>
