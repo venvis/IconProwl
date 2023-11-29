@@ -72,7 +72,7 @@ find_icon.images()
 <p align="center">Examples : </p>
 
 <div align="center">
-<img src="examples.png"  height="60%" width="60%">
+<img src="examples.png" >
 </div>
 
 <div align="center">
