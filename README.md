@@ -72,10 +72,10 @@ find_icon.images()
 <p align="center">Examples : </p>
 
 <div align="center">
-<img src="examples.png"  height="300" width="300">
+<img src="examples.png"  height="60%" width="60%">
 </div>
 
 <div align="center">
-<img src="bs4.png" height="300" width="300">
+<img src="bs4.png" height="130" width="300">
   <p align="center">Made with Python and BeautifulSoup</p>
 </div>
