@@ -57,7 +57,7 @@ find_icon=IconFinder("mail")
 find_icon.save_image("/Users/myname/Desktop/x.jpeg",6) # Saves the 6th image in the Desktop as x.jpeg
 ```
 
-<p align="center" font-size="25">There is also a class for 3D images. Initiate the Class as follows and the functions are the same as the previous.</p>
+<h2 align="center">There is also a class for 3D images. Initiate the Class as follows and the functions are the same as the previous.</h2>
 <p></p>
 
 ```python
