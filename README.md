@@ -69,6 +69,8 @@ find_icon=IconFinder3D("mail")
 find_icon.images()
 ```
 
+<p align="center">Examples : </p>
+
 <div align="center">
 <img src="bs4.png" style="border:1px solid white;" height="130" width="300">
   <p align="center">Made with Python and BeautifulSoup</p>
