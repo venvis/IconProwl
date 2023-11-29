@@ -57,7 +57,7 @@ find_icon=IconFinder("mail")
 find_icon.save_image("/Users/myname/Desktop/x.jpeg",6) # Saves the 6th image in the Desktop as x.jpeg
 ```
 
-<h2 align="center">There is also a class for 3D images. Initiate the Class as follows and the functions are the same as the previous.</h2>
+<h2 align="center">There is also a class for 3D images.</h2>
 <p></p>
 
 ```python
@@ -66,7 +66,8 @@ find_icon.save_image("/Users/myname/Desktop/x.jpeg",6) # Saves the 6th image in 
 
 from WebIconFinder import IconFinder3D # Import the 3D class
 find_icon=IconFinder3D("mail")
-find_icon.images()
+#All functions are the same as for the IconFinder Class.....
+
 ```
 
 <p align="center">Examples : </p>
