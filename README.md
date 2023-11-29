@@ -37,6 +37,26 @@ find_icon=IconFinder("mail")
 find_icon.get_links()
 ```
 
+###  3: Show/Display a particular Icon
+
+```python
+
+#To display an Icon   , call the show_image(image_number:int) function from the initialized class , for example : 
+
+find_icon=IconFinder("mail")
+find_icon.show_image(2) # Shows the second image from all scraped images
+```
+
+###  4 : Download an icon
+
+```python
+
+#To download an icon locally  , call the save_image(path:str,image_number:int) function from the initialized class , for example : 
+
+find_icon=IconFinder("mail")
+find_icon.save_image("/Users/myname/Desktop/x.jpeg",6) # Saves the 6th image in the Desktop as x.jpeg
+```
+
 <div align="center">
 <img src="bs4.png" style="border:1px solid white;" height="130" width="300">
   <p align="center">Made with Python and BeautifulSoup</p>
