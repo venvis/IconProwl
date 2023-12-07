@@ -6,7 +6,17 @@
 </div>
 
 
+<p align="center">Download it using pip : </p>
 
+```sh
+pip install IconProwl==1.1.1
+```
+
+<p align="center">Or : </p>
+
+```sh
+git clone git@github.com:venvis/WebIconFinder.git
+```
 
 ## Initiate the Class  
 
