@@ -7,14 +7,15 @@
 
 
 
+
 ## Initiate the Class  
 
 ```python
 
 #To scrape for normal icons , create an instance of the class IconFinder with the name of the image to search  , for example :
 
-from WebIconFinder import IconFinder # Import the class from the package
-find_icon=IconFinder("mail")
+from IconProwl import IconProwl # Import the class from the package
+find_icon=IconProwl.IconFinder("mail")
 ```
 
 ###  1 : Scrape web links of images
@@ -23,7 +24,7 @@ find_icon=IconFinder("mail")
 
 #To scrape for links of images , call the images() function from the initialized class , for example : 
 
-find_icon=IconFinder("mail")
+find_icon=IconProwl.IconFinder("mail")
 find_icon.images()
 ```
 
@@ -33,7 +34,7 @@ find_icon.images()
 
 #To scrape for links of images to download locally  , call the get_links() function from the initialized class , for example : 
 
-find_icon=IconFinder("mail")
+find_icon=IconProwl.IconFinder("mail")
 find_icon.get_links()
 ```
 
@@ -43,7 +44,7 @@ find_icon.get_links()
 
 #To display an Icon   , call the show_image(image_number:int) function from the initialized class , for example : 
 
-find_icon=IconFinder("mail")
+find_icon=IconProwl.IconFinder("mail")
 find_icon.show_image(2) # Shows the second image from all scraped images
 ```
 
@@ -53,7 +54,7 @@ find_icon.show_image(2) # Shows the second image from all scraped images
 
 #To download an icon locally  , call the save_image(path:str,image_number:int) function from the initialized class , for example : 
 
-find_icon=IconFinder("mail")
+find_icon=IconProwl.IconFinder("mail")
 find_icon.save_image("/Users/myname/Desktop/x.jpeg",6) # Saves the 6th image in the Desktop as x.jpeg
 ```
 
@@ -64,8 +65,8 @@ find_icon.save_image("/Users/myname/Desktop/x.jpeg",6) # Saves the 6th image in 
 
 #To scrape for links of images , call the images() function from the initialized class , for example : 
 
-from WebIconFinder import IconFinder3D # Import the 3D class
-find_icon=IconFinder3D("mail")
+from IconProwl import IconProwl # Import the 3D class
+find_icon=IconProwl.IconFinder3D("mail")
 #All functions are the same as for the IconFinder Class.....
 
 ```
