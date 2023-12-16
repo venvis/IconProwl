@@ -15,7 +15,7 @@ pip install IconProwl==1.1.1
 <p align="center">Or : </p>
 
 ```sh
-git clone git@github.com:venvis/WebIconFinder.git
+git clone git@github.com:venvis/IconProwl.git
 ```
 
 ## Initiate the Class  
