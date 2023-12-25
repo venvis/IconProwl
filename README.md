@@ -9,7 +9,7 @@
 <p align="center">Download it using pip : </p>
 
 ```sh
-pip install IconProwl==1.1.1
+pip install IconProwl
 ```
 
 <p align="center">Or : </p>
