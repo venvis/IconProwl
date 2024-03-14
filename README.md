@@ -95,3 +95,10 @@ find_icon=IconProwl.Iconfinder3D("mail")
 <img src="bs4.png" height="130" width="300">
   <p align="center">Made with Python and BeautifulSoup</p>
 </div>
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
