@@ -90,6 +90,12 @@ find_icon=IconProwl.Iconfinder3D("mail")
 <div align="center">
 <img src="examples.png" >
 </div>
+```mermaid
+flowchart TD;
+    A[Start] --> B[Process 1];
+    B --> C[Process 2];
+    C --> D[End];
+```
 
 <div align="center">
 <img src="bs4.png" height="130" width="300">
